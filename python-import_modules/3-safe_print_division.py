@@ -3,14 +3,12 @@ def safe_print_division(a,b):
     try:
         result
     except ZeroDivisionError:
-             result = None
-             return result
+        print(None)
     finally:
-        print("{}:{}".format('Inside result', result))
+        print(result)
         print("{}/{} = {}".format(a,b,result) )
 
 
 
           
 
-safe_print_division(0,2)
