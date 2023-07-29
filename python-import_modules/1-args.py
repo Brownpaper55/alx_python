@@ -11,4 +11,5 @@ if __name__ == "__main__":
 
 
 
-argv('hello', 21)
+
+argv(21)
