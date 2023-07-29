@@ -5,8 +5,10 @@ def argv(*args):
         i += 1
         print("{}:{}".format(i,agg))
         
+if __name__ == "__main__":
+    import sys
+    argv(int(sys.argv[1]))
 
 
 
-argv()
 
