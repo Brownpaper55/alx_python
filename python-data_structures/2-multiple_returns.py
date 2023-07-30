@@ -1,15 +1,16 @@
 def multiple_returns(sentence=''):
+    length = len(sentence)
+    first = sentence[0]
+    
     if sentence == '':
         return None  
     else:
-        length = len(sentence)
-        first = sentence[0]
         f = print("Length: {:d} - First character: {}".format(length, first))
         return '' 
      
 
 
-
+ 
 
 
     
